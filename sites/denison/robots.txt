@@ -1,0 +1,4 @@
+# Block the in-progress draft site from search engines.
+# The coming-soon page at / remains crawlable.
+User-agent: *
+Disallow: /draft/
