@@ -125,7 +125,16 @@
           <h2>Schedule a tour or request information</h2>
           <p>Tell us a little about what you're looking for, and we'll be in touch. There's no obligation, and nothing will be shared outside our team.</p>
 
-          <form class="form mt-4" id="tour-form" onsubmit="event.preventDefault(); alert('Thanks! In the live site this will send to our team. For now the form is a placeholder.'); return false;">
+          <form class="form mt-4" id="tour-form"
+                name="contact"
+                method="POST"
+                action="thanks.html"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p hidden>
+              <label>Don't fill this out if you're human: <input name="bot-field"></label>
+            </p>
             <div class="form-row">
               <div class="field">
                 <label for="f-first">First Name *</label>
