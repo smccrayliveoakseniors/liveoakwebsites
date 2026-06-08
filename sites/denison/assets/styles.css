@@ -148,9 +148,9 @@ p { margin-bottom: 1rem; color: var(--ink-soft); }
   border-color: var(--blue);
 }
 
-.nav-cta {
+.nav-links a.nav-cta {
   display: inline-block;
-  padding: 0.6rem 2.4rem;
+  padding: 0.6rem 1.6rem;
   background: var(--blue);
   color: var(--white) !important;
   border-radius: var(--radius);
@@ -160,7 +160,7 @@ p { margin-bottom: 1rem; color: var(--ink-soft); }
   letter-spacing: 0.02em;
 }
 
-.nav-cta:hover { background: var(--blue-dark); color: var(--white) !important; }
+.nav-links a.nav-cta:hover { background: var(--blue-dark); color: var(--white) !important; }
 
 .nav-toggle {
   display: none;
