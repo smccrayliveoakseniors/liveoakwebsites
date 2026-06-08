@@ -374,6 +374,20 @@ section.bg-ink p { color: rgba(255,255,255,0.8); }
   display: block;
 }
 
+/* Clean "coming soon" placeholder (public-facing) */
+.ph.ph-soon { background: var(--cream); border: 1px solid var(--line); }
+.ph.ph-soon::before { display: none; }
+.ph-soon-text {
+  position: relative;
+  z-index: 1;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 /* Aspect-ratio helpers for placeholders */
 .ph-16x9 { aspect-ratio: 16 / 9; }
 .ph-4x3  { aspect-ratio: 4 / 3; }
