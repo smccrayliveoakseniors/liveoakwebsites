@@ -1,2 +1,5 @@
+# Live Oak Denison — production
 User-agent: *
 Allow: /
+
+Sitemap: https://liveoakdenison.com/sitemap.xml
