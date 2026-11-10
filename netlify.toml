@@ -2,6 +2,227 @@
   publish = "sites/denison"
 
 # ---------------------------------------------------------------------------
+# Old Stone Brook domain (srcstonebrook.com, domain alias on this site):
+# 301 each old WordPress page to its Live Oak Denison equivalent.
+# ---------------------------------------------------------------------------
+[[redirects]]
+  from = "https://srcstonebrook.com/"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/assisted-living/*"
+  to = "https://liveoakdenison.com/assisted-living"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/memory-care/*"
+  to = "https://liveoakdenison.com/memory-care"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/respite-care/*"
+  to = "https://liveoakdenison.com/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/activities/*"
+  to = "https://liveoakdenison.com/gallery"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/contact-us/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/employment/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/privacy-policy/*"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://srcstonebrook.com/*"
+  to = "https://liveoakdenison.com/stone-brook"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/assisted-living/*"
+  to = "https://liveoakdenison.com/assisted-living"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/memory-care/*"
+  to = "https://liveoakdenison.com/memory-care"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/respite-care/*"
+  to = "https://liveoakdenison.com/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/activities/*"
+  to = "https://liveoakdenison.com/gallery"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/contact-us/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/employment/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/privacy-policy/*"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.srcstonebrook.com/*"
+  to = "https://liveoakdenison.com/stone-brook"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/assisted-living/*"
+  to = "https://liveoakdenison.com/assisted-living"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/memory-care/*"
+  to = "https://liveoakdenison.com/memory-care"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/respite-care/*"
+  to = "https://liveoakdenison.com/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/activities/*"
+  to = "https://liveoakdenison.com/gallery"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/contact-us/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/employment/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/privacy-policy/*"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://srcstonebrook.com/*"
+  to = "https://liveoakdenison.com/stone-brook"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/assisted-living/*"
+  to = "https://liveoakdenison.com/assisted-living"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/memory-care/*"
+  to = "https://liveoakdenison.com/memory-care"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/respite-care/*"
+  to = "https://liveoakdenison.com/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/activities/*"
+  to = "https://liveoakdenison.com/gallery"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/contact-us/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/employment/*"
+  to = "https://liveoakdenison.com/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/privacy-policy/*"
+  to = "https://liveoakdenison.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.srcstonebrook.com/*"
+  to = "https://liveoakdenison.com/stone-brook"
+  status = 301
+  force = true
+
+
+# ---------------------------------------------------------------------------
 # Canonical URLs: https://liveoakdenison.com, extension-less paths (/about).
 # Netlify serves /about from about.html automatically; the rules below 301
 # the duplicate variants (http://, www, /about.html, /index.html) to that form.
