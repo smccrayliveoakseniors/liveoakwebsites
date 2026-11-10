@@ -3,202 +3,184 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery | Live Oak Denison</title>
-  <meta name="description" content="A look at Live Oak Denison — exterior, interiors, amenities, and the community we've built.">
-  <link rel="canonical" href="https://liveoakdenison.com/gallery.html">
+  <title>Photos of Live Oak Denison | Senior Living in Denison TX</title>
+  <meta name="description" content="Photos of Live Oak Denison in Denison, TX: our front entrance, living room, library and game room, and sunny sitting areas. Tour in person anytime.">
+  <link rel="canonical" href="https://liveoakdenison.com/gallery">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Live Oak Denison">
-  <meta property="og:title" content="Gallery | Live Oak Denison">
-  <meta property="og:description" content="A look at Live Oak Denison — exterior, interiors, amenities, and the community we've built.">
-  <meta property="og:url" content="https://liveoakdenison.com/gallery.html">
-  <meta property="og:image" content="https://liveoakdenison.com/assets/exterior.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Photos of Live Oak Denison | Senior Living in Denison TX">
+  <meta property="og:description" content="Photos of Live Oak Denison in Denison, TX: our front entrance, living room, library and game room, and sunny sitting areas. Tour in person anytime.">
+  <meta property="og:url" content="https://liveoakdenison.com/gallery">
+  <meta property="og:image" content="https://liveoakdenison.com/assets/photos/og-entrance.jpg">
+  <meta property="og:image:width" content="1152">
+  <meta property="og:image:height" content="605">
+  <meta property="og:image:alt" content="Front entrance of Live Oak Denison with U.S. and Texas flags">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Gallery | Live Oak Denison">
-  <meta name="twitter:description" content="A look at Live Oak Denison — exterior, interiors, amenities, and the community we've built.">
-  <meta name="twitter:image" content="https://liveoakdenison.com/assets/exterior.jpg">
-  <link rel="icon" href="https://liveoakdenison.com/logo.png">
+  <meta name="twitter:title" content="Photos of Live Oak Denison | Senior Living in Denison TX">
+  <meta name="twitter:description" content="Photos of Live Oak Denison in Denison, TX: our front entrance, living room, library and game room, and sunny sitting areas. Tour in person anytime.">
+  <meta name="twitter:image" content="https://liveoakdenison.com/assets/photos/og-entrance.jpg">
+  <meta name="theme-color" content="#0d3f7a">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-mark.svg">
+  <link rel="icon" type="image/png" href="/assets/logo-112.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://liveoakdenison.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Gallery",
+      "item": "https://liveoakdenison.com/gallery"
+    }
+  ]
+}
+  </script>
   <style>
-    .gallery-tabs {
-      display: flex;
-      justify-content: center;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-      margin-bottom: 2.5rem;
-    }
-    .tab {
-      padding: 0.55rem 1.2rem;
-      border: 1px solid var(--line);
-      background: var(--white);
-      color: var(--ink-soft);
-      border-radius: 999px;
-      font-family: var(--sans);
-      font-size: 0.88rem;
-      font-weight: 500;
-      letter-spacing: 0.04em;
-      cursor: pointer;
-      transition: all .2s ease;
-    }
-    .tab:hover { border-color: var(--blue); color: var(--blue); }
-    .tab.active { background: var(--blue); color: var(--white); border-color: var(--blue); }
-
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-    }
-    .gallery-grid .ph { border-radius: var(--radius); }
-    .gallery-grid .ph-wide { grid-column: span 2; }
-    .gallery-grid .ph-tall { grid-row: span 2; }
-
-    @media (max-width: 900px) {
-      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
-      .gallery-grid .ph-wide { grid-column: span 2; }
-      .gallery-grid .ph-tall { grid-row: span 1; }
-    }
-    @media (max-width: 560px) {
-      .gallery-grid { grid-template-columns: 1fr; }
-      .gallery-grid .ph-wide { grid-column: span 1; }
-    }
-
-    .progress-badge {
-      display: inline-block;
-      background: var(--amber);
-      color: #fff;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 0.35rem 0.75rem;
-      border-radius: 999px;
-      margin-bottom: 1rem;
-    }
+    .gallery-note { text-align: center; color: var(--muted); font-size: 0.95rem; margin-top: 2rem; }
+    .gallery-soon { margin-top: 1rem; border-radius: var(--radius-lg); min-height: 220px; }
   </style>
 </head>
-<body>
+<body class="has-callbar">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span>1616 Lifesearch Way · Denison, TX 75020</span>
+      <span>Care staff on-site 24/7 · <a href="tel:+19034655051">(903) 465-5051</a></span>
+    </div>
+  </div>
 
   <header class="site-header">
-    <div class="nav">
-      <a href="index.html" class="nav-brand" aria-label="Live Oak Denison home">
-        <img src="https://liveoakdenison.com/logo.png" alt="Live Oak Denison" class="nav-logo-img">
+    <nav class="nav" aria-label="Main">
+      <a href="/" class="nav-brand" aria-label="Live Oak Denison home">
+        <picture><source type="image/webp" srcset="/assets/logo-112.webp"><img src="/assets/logo-112.png" alt="Live Oak Denison" class="nav-logo-img" width="51" height="48"></picture>
       </a>
-      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-      <ul class="nav-links">
-        <li><a href="index.html"       data-page="index.html">Home</a></li>
-        <li><a href="about.html"       data-page="about.html">About</a></li>
-        <li><a href="services.html"    data-page="services.html">Care</a></li>
-        <li><a href="floor-plans.html" data-page="floor-plans.html">Floor Plans</a></li>
-        <li><a href="gallery.html"     data-page="gallery.html">Gallery</a></li>
-        <li><a href="contact.html"     data-page="contact.html">Contact</a></li>
-        <li><a href="contact.html#tour" class="nav-cta">Schedule a Tour</a></li>
+      <a class="nav-call" href="tel:+19034655051" aria-label="Call Live Oak Denison at (903) 465-5051">☎ Call</a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/about">About</a></li>
+        <li><a href="/assisted-living">Assisted Living</a></li>
+        <li><a href="/memory-care">Memory Care</a></li>
+        <li><a href="/floor-plans">Floor Plans</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/contact#tour" class="nav-cta">Schedule a Tour</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
+
+  <main id="main">
 
   <section class="page-header">
     <div class="wrap-narrow">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><span aria-current="page">Gallery</span></nav>
       <span class="eyebrow">Gallery</span>
-      <h1>A look inside Live Oak Denison.</h1>
-      <p>Explore our exterior, interiors, dining room, memory care, and grounds. Better yet, come see it in person — we'd love to show you around.</p>
+      <h1>A look inside Live Oak Denison</h1>
+      <p>A few of our favorite spaces at 1616 Lifesearch Way. Photos are a start — a visit tells the whole story.</p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <div class="gallery-grid">
-        <!-- Exterior banner -->
-        <div class="ph ph-21x9 has-photo" style="grid-column: 1 / -1;">
-          <img class="photo" src="assets/exterior.jpg" alt="Live Oak community building exterior with covered entrance">
-        </div>
-
-        <!-- Interiors -->
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/living-room.jpg" alt="Main living room with comfortable seating">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/salon.jpg" alt="On-site salon">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/library.jpg" alt="Library and sitting area">
-        </div>
-
-        <!-- Community life -->
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/staff-costumes.webp" alt="Staff in costumes for a themed event">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/party-decorations.webp" alt="Party decorations">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/cotton-candy-1.webp" alt="Resident enjoying cotton candy">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/cotton-candy-2.webp" alt="Resident with cotton candy">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/celebration-1.webp" alt="">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/celebration-2.webp" alt="Residents at a community celebration">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/activity-dominoes.jpg" alt="Resident playing dominoes">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/activity-puzzle.jpg" alt="Residents working on a puzzle together">
-        </div>
-        <div class="ph ph-1x1 has-photo">
-          <img class="photo" src="assets/img/resident-celebration.jpg" alt="Resident celebrating at a community event">
-        </div>
+      <figure class="photo-banner">
+        <picture><source type="image/webp" srcset="/assets/photos/entrance-hero-1152.webp"><img src="/assets/photos/entrance-hero-1152.jpg" alt="Front entrance of Live Oak Denison with a stone porte-cochère and U.S. and Texas flags" width="1152" height="480" loading="lazy" decoding="async"></picture>
+      </figure>
+      <div class="photo-strip">
+        <figure class="r4x3">
+          <picture><source type="image/webp" srcset="/assets/photos/living-room-fireplace.webp"><img src="/assets/photos/living-room-fireplace.jpg" alt="Living room with a fireplace, sofa, wingback chairs, and a grand piano" width="640" height="480" loading="lazy" decoding="async"></picture>
+          <figcaption>Living room with fireplace &amp; grand piano</figcaption>
+        </figure>
+        <figure class="r4x3">
+          <picture><source type="image/webp" srcset="/assets/photos/library-game-room.webp"><img src="/assets/photos/library-game-room.jpg" alt="Library and game room with built-in bookshelves, a table and chairs, a chandelier, and a TV" width="640" height="480" loading="lazy" decoding="async"></picture>
+          <figcaption>Library &amp; game room</figcaption>
+        </figure>
+        <figure class="r3x4">
+          <picture><source type="image/webp" srcset="/assets/photos/sitting-nook.webp"><img src="/assets/photos/sitting-nook.jpg" alt="Sunny sitting nook with two wingback chairs and an ottoman by a tall window" width="480" height="640" loading="lazy" decoding="async"></picture>
+          <figcaption>Sunny sitting nook</figcaption>
+        </figure>
       </div>
+
+      <div class="soon gallery-soon">
+        <span class="soon-title">Apartment &amp; memory care photos coming soon</span>
+        <span class="soon-note">We'd be glad to show you an apartment and our memory care community in person.</span>
+      </div>
+      <!-- TODO(owner): add real Denison photos of apartments, dining room, memory care, courtyard, and resident life (with photo releases) as they become available. -->
     </div>
   </section>
 
-  <!-- CTA -->
   <section class="bg-ink">
     <div class="wrap-narrow text-center">
+      <span class="eyebrow" style="color: var(--amber-soft);">Visit Us</span>
       <h2>See it for yourself.</h2>
-      <p style="font-size: 1.1rem; margin-bottom: 2rem;">Photos are a start. A visit tells the whole story. Come walk the building, meet the team, and see it for yourself.</p>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem;">Come walk the building, meet the team, and picture your loved one here.</p>
       <div class="hero-actions" style="justify-content: center;">
-        <a href="contact.html#tour" class="btn btn-primary">Schedule a Tour</a>
+        <a href="/contact#tour" class="btn btn-primary">Schedule a Tour</a>
         <a href="tel:+19034655051" class="btn btn-cream">Call (903) 465-5051</a>
       </div>
     </div>
   </section>
+
+  </main>
 
   <footer class="site-footer">
     <div class="wrap">
       <div class="footer-grid">
         <div class="footer-brand">
           <h3>Live Oak Denison</h3>
-          <p style="font-family: var(--serif); font-style: italic; color: var(--amber-soft); font-size: 1rem; margin-bottom: 0.75rem;">Rooted in compassion<br>Grounded in care</p>
-          <p>Assisted living &amp; memory care in Denison, Texas. A Live Oak Senior Care community.</p>
+          <p style="font-family: var(--serif); font-style: italic; color: var(--amber-soft); font-size: 1rem; margin-bottom: 0.75rem;">Rooted in compassion.<br>Grounded in care.</p>
+          <p>Assisted living &amp; memory care in Denison, Texas. A Live Oak Senior Care community, formerly Stone Brook Assisted Living.</p>
+          <div class="social">
+            <a href="https://www.facebook.com/p/Live-Oak-Denison-61579510118988/" target="_blank" rel="noopener" aria-label="Live Oak Denison on Facebook (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.49-3.91 3.78-3.91 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.91h-2.34V22c4.78-.76 8.43-4.92 8.43-9.94Z"/></svg> Facebook</a>
+          </div>
         </div>
         <div>
           <h4>Visit</h4>
-          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">1616 Lifesearch Way<br>Denison, TX 75020</p>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">
+            1616 Lifesearch Way<br>
+            Denison, TX 75020
+          </p>
+          <ul>
+            <li><a href="/contact#directions">Map &amp; directions</a></li>
+            <li><a href="/contact#tour">Schedule a tour</a></li>
+          </ul>
         </div>
         <div>
           <h4>Contact</h4>
           <ul>
             <li><a href="tel:+19034655051">(903) 465-5051</a></li>
             <li><a href="mailto:info@liveoakdenison.com">info@liveoakdenison.com</a></li>
+            <li style="color: rgba(255,255,255,0.6); font-size: 0.86rem;">Care staff on-site 24/7</li>
           </ul>
         </div>
         <div>
           <h4>Explore</h4>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Care</a></li>
-            <li><a href="floor-plans.html">Floor Plans</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/services">Care &amp; Services</a></li>
+            <li><a href="/assisted-living">Assisted Living</a></li>
+            <li><a href="/memory-care">Memory Care</a></li>
+            <li><a href="/floor-plans">Floor Plans</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/stone-brook">Stone Brook is now Live Oak Denison</a></li>
           </ul>
         </div>
       </div>
+      <p class="footer-areas"><strong>Areas we serve:</strong> Denison, Sherman, Pottsboro, and families across Grayson County and Texoma — just off Hwy 75, minutes from Texoma Medical Center.</p>
       <div class="footer-legal">
         <div>&copy; 2026 Live Oak Senior Care. All rights reserved.</div>
         <div>Equal Housing Opportunity</div>
@@ -206,6 +188,11 @@
     </div>
   </footer>
 
-  <script src="assets/nav.js" defer></script>
+  <div class="callbar" role="navigation" aria-label="Quick contact">
+    <a href="tel:+19034655051" class="callbar-call">☎ Call (903) 465-5051</a>
+    <a href="/contact#tour" class="callbar-tour">Schedule a Tour</a>
+  </div>
+
+  <script src="/assets/nav.js" defer></script>
 </body>
 </html>
