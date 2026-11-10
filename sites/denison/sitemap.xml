@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://liveoakdenison.com/</loc><lastmod>2026-06-09</lastmod><priority>1.0</priority></url>
-  <url><loc>https://liveoakdenison.com/about.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
-  <url><loc>https://liveoakdenison.com/services.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
-  <url><loc>https://liveoakdenison.com/floor-plans.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
-  <url><loc>https://liveoakdenison.com/gallery.html</loc><lastmod>2026-06-09</lastmod><priority>0.6</priority></url>
-  <url><loc>https://liveoakdenison.com/contact.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://liveoakdenison.com/</loc><lastmod>2026-11-10</lastmod><priority>1.0</priority></url>
+  <url><loc>https://liveoakdenison.com/assisted-living</loc><lastmod>2026-11-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://liveoakdenison.com/memory-care</loc><lastmod>2026-11-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://liveoakdenison.com/services</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://liveoakdenison.com/floor-plans</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://liveoakdenison.com/faq</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://liveoakdenison.com/contact</loc><lastmod>2026-11-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://liveoakdenison.com/about</loc><lastmod>2026-11-10</lastmod><priority>0.7</priority></url>
+  <url><loc>https://liveoakdenison.com/gallery</loc><lastmod>2026-11-10</lastmod><priority>0.6</priority></url>
+  <url><loc>https://liveoakdenison.com/stone-brook</loc><lastmod>2026-11-10</lastmod><priority>0.6</priority></url>
 </urlset>
